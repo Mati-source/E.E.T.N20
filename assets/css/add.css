@@ -1,0 +1,68 @@
+	.content {
+			margin-top: 80px;
+		}
+
+	.body {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	}
+
+	/*estilo para el contenido*/
+	.form-horizontal {
+        width: 1000px;
+		margin-top: 500px;
+	}
+
+	.centrado {
+		text-align: center;
+		margin-top: 200px;
+	}
+
+	.contenedor {
+    background-color: #000000;
+    width: 100px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 200px; /* para que el navbar no tape el contenido */
+	}
+
+	/*estilo para los botones*/
+	.btn-celeste {
+		background-color: #ffffff;
+		font-weight: bold;
+		color: rgb(0, 79, 143);
+		border: none;
+		transition: background 0.5s;
+	}
+
+	.btn-celeste:hover {
+		background-color: #7fb3dd;
+		color: #fff;
+	}
+
+	.btn-rosa {
+		background-color: rgb(255, 255, 255);
+		font-weight: bold;
+		color: rgb(140, 0, 0);
+		border: none;
+		transition: background 0.5s;
+	}
+
+	.btn-rosa:hover {
+		background-color: #f48ca3;
+		color: #fff;
+	}
+
+	.btn-custom {
+		width: 220px;
+		height: 35px;
+	}
+	.btn-custom:hover {
+		cursor: pointer;
+	}
